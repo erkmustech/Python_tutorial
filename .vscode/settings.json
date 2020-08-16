@@ -1,7 +1,7 @@
 {
     "git.ignoreLimitWarning": true,
     "files.autoSave": "afterDelay",
-    "workbench.colorTheme": "Quiet Light",
+    "workbench.colorTheme": "Monokai",
     "workbench.preferredDarkColorTheme": "Monokai",
     "editor.fontFamily": "Hack",
     
@@ -34,10 +34,11 @@
     "-p",
     "*test.py"
   ],
-  "python.testing.pytestEnabled": true,
+  "python.testing.pytestEnabled": false,
   "python.testing.nosetestsEnabled": false,
   "python.testing.unittestEnabled": false,
   "python.testing.pytestArgs": [
     "10_if_with_in"
-  ]
+  ],
+  "python.testing.promptToConfigure": false
 }
