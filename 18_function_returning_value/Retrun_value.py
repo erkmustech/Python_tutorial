@@ -15,15 +15,18 @@ add(5,8)
 result=add(5,8)
 print(result) 
 
+# 13 , return only give result for print. 
+
 print("---next 3----")
 
 def mult(x,y):
     print(x*y)
-    return x*y
+    return x*y 
 
-result=mult(5,8)
+result=mult(5,8) 
 print(result)  
-
+# 40  print the result and show it in order result
+# 40  the rutrun functin return the result for print. 
 
 
 
