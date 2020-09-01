@@ -13,7 +13,7 @@ student = [
 # Assume the argument, data, is a dictionary.
 # Modify the grades variable so it accesses the 'grades' key of the data dictionary.
 def average_grade(data):
-    grades =  stdeent_mapping
+    grades =  student_mapping
     return sum(grades) / len(grades)
 
 

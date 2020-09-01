@@ -4,4 +4,3 @@ year1 = int(Byear)
 year = input("please inter this year")
 year2 = int(year)
 print(f"{name} you are {year2-year1} year old now")
-
