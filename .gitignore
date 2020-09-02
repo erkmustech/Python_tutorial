@@ -1,0 +1,1 @@
+git config --global alias.reng “log --graph --oneline --decorate”

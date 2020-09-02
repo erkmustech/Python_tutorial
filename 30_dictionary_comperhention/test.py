@@ -1,20 +1,19 @@
 # Create a variable called student, with a dictionary.
 # The dictionary must contain three keys: 'name', 'school', and 'grades'.
 # The values for each must be 'Jose', 'Computing', and a tuple with the values 66, 77, and 88.
-student = [
-    {"name":"Jose"},
-    {"school":"Computing"},
-    {"grade":(66,77,88)}
-    ]
+student = {'name': 'Jose','school':'computing','grades':(66,77,88)}
 
- student_mapping={student[1]: student for student in students} 
- name,school, grade = student_mapping
- 
+
+#  student_mapping={student[1]: student for student in students} 
+#  name,school, grade = student_mapping
 # Assume the argument, data, is a dictionary.
 # Modify the grades variable so it accesses the 'grades' key of the data dictionary.
+
 def average_grade(data):
-    grades =  student_mapping
+    grades =data['grades'] 
     return sum(grades) / len(grades)
+    # print(grades)
+
 
 
 # Implement the function below
@@ -25,6 +24,8 @@ def average_grade_all_students(student_list):
     total = 0
     count = 0
     for student in student_list:
-        # Implement here
+        total + =sum(student['grades'])
+        count + =len(student['grades'])
 
+        # Implement here
     return total / count

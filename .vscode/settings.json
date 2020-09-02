@@ -3,7 +3,7 @@
     "files.autoSave": "afterDelay",
     "workbench.colorTheme": "Monokai Dimmed",
     "workbench.preferredDarkColorTheme": "Monokai",
-   "editor.fontFamily": "'Fira Code', 'Noto Mono', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+   "editor.fontFamily": "'Fira Code', 'Noto Mono',  monospace, 'Droid Sans Fallback'",
     "editor.fontLigatures": true,
     "workbench.colorCustomizations": {
     "terminal.background":"#1D2021",
@@ -41,5 +41,5 @@
     "10_if_with_in"
   ],
   "python.testing.promptToConfigure": false,
-  "editor.fontSize": 14
+  "editor.fontSize": 15
 }
